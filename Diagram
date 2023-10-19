@@ -1,0 +1,23 @@
+Program
+└── Main Method
+    ├── Create a Scripture object
+    │   ├── Scripture
+    │   │   ├── ScriptureReference
+    │   │   │   ├── ScriptureReferenceParser
+    │   │   │   ├── ScriptureReferenceValidator
+    │   │   └── ScriptureText
+    ├── Create a ConsoleUI object
+    │   ├── ConsoleUI
+    ├── while True (to repeat until all words are hidden or user quits)
+    │   ├── Display the complete scripture
+    │   ├── Prompt the user to press enter or type "quit"
+    │   │   ├── Read user input
+    │   │   ├── if user input is "quit"
+    │   │   │   └── Exit the loop
+    │   │   └── else
+    │   │       ├── Hide random words in the scripture
+    │   │       │   ├── ScriptureText
+    │   │       │   └── RandomWordHider
+    │   │       └── Clear the console screen
+    │   └── Check if all words are hidden
+    └── End the program
